@@ -31,8 +31,8 @@ public class GameIntro : MonoBehaviour
     IEnumerator ShrinkScreen()
     {
         // Calculate target size as a percentage of the screen size
-        float targetWidthPercentage = 0.05f; // 10% of screen width
-        float targetHeightPercentage = 0.05f; // 10% of screen height
+        float targetWidthPercentage = 0.15f; // 10% of screen width
+        float targetHeightPercentage = 0.15f; // 10% of screen height
         Vector2 targetSize = new Vector2(Screen.width * targetWidthPercentage, Screen.height * targetHeightPercentage);
         Vector2 targetPosition = new Vector2(Screen.width - targetSize.x, targetSize.y - Screen.height);
         Vector2 originalSize = new Vector2(Screen.width, Screen.height);
